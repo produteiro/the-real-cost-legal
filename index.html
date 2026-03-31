@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - The Real Cost</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
+            line-height: 1.6; 
+            max-width: 800px; 
+            margin: 40px auto; 
+            padding: 0 20px; 
+            color: #334155; 
+            background-color: #f8fafc;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e2e8f0;
+        }
+        h1 { color: #2563eb; font-size: 2.2rem; margin-bottom: 10px; }
+        h2 { border-bottom: 2px solid #f1f5f9; padding-bottom: 8px; margin-top: 30px; color: #1e293b; }
+        p { margin-bottom: 16px; }
+        ul { margin-bottom: 16px; }
+        li { margin-bottom: 8px; }
+        .last-updated { color: #64748b; font-size: 0.9rem; font-style: italic; }
+        .contact-box { 
+            background: #eff6ff; 
+            padding: 20px; 
+            border-radius: 8px; 
+            border-left: 4px solid #2563eb;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy for The Real Cost</h1>
+        <p class="last-updated">Last Updated: March 31, 2026</p>
+
+        <h2>1. Introduction</h2>
+        <p>This Privacy Policy explains how <strong>"The Real Cost"</strong> ("we", "us", or "our"), a Chrome Extension developed by <strong>Everton Bertolai</strong>, handles information. Your privacy is important to us, and we are committed to being transparent about our data practices in compliance with global privacy standards.</p>
+
+        <h2>2. Information Collection and Use</h2>
+        <p>"The Real Cost" does not collect, store, or sell any personal identification information (PII). To provide real estate analysis, the extension processes the following data:</p>
+        <ul>
+            <li><strong>Public Listing Data:</strong> Text content from real estate websites (such as Realtor.ca and Zillow.com) that you are currently browsing. This is used solely to identify property details like price, square footage, and location.</li>
+            <li><strong>User Inputs:</strong> Financial values (such as Down Payment percentage and Interest Rate) entered manually by you in the extension widget. These values are stored locally in your browser's sync storage to improve your experience.</li>
+        </ul>
+
+        <h2>3. Data Processing and Third Parties</h2>
+        <p>This extension uses a secure backend hosted on <strong>Vercel</strong> to proxy requests to the <strong>Google Gemini API</strong>.</p>
+        <ul>
+            <li>The property listing text is sent securely via HTTPS to our backend and subsequently to Google Gemini for AI-driven analysis.</li>
+            <li><strong>We do not store this data on any server or database.</strong> The processing happens in real-time (transiently), and all information is discarded immediately after the analysis is returned to your browser.</li>
+            <li>The Google Gemini API is used in accordance with Google's data privacy policies for generative AI.</li>
+        </ul>
+
+        <h2>4. Data Retention</h2>
+        <p>We do not retain any of your property search history or personal data on our infrastructure. All financial calculations and AI insights are handled within your active browser session or through temporary API calls that do not persist after the request is completed.</p>
+
+        <h2>5. User Rights and Data Security</h2>
+        <p>Since we do not collect or store personal data, there is no personal information to access, update, or delete from our side. We ensure data security by using encrypted HTTPS connections for all communications between the extension, our backend, and the AI service.</p>
+
+        <h2>6. Changes to This Policy</h2>
+        <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date at the top.</p>
+
+        <div class="contact-box">
+            <strong>7. Contact Us</strong>
+            <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at: <strong>evertonbertolai@gmail.com</strong></p>
+        </div>
+    </div>
+</body>
+</html>
